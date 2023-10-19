@@ -66,7 +66,7 @@ export default function Loklok() {
       <div className="flex max-w-6xl gap-8 justify-center item-center align-middle flex-wrap ">
         {youtubeTipe('LokLok Premium','11k','1 Month', 'https://wa.me/6287868785129?text=Beli%20LokLok%20Premium%20(Sharing)%201%20Bulan%2011k')}
         {youtubeTipe('LokLok Premium','15k','1 Month Unlimited', 'https://wa.me/6287868785129?text=Beli%20LokLok%20Premium%20(unlimited Sharing)%201%20Bulan%2015k')}
-        {youtubeTipe('LokLok Premium','23k','3 Month', 'https://wa.me/6287868785129?text=Beli%20LokLok%20Premium%20(Sharing)%203%20Bulan%2023k')}
+        {youtubeTipe('LokLok Premium','233k','3 Month', 'https://wa.me/6287868785129?text=Beli%20LokLok%20Premium%20(Sharing)%203%20Bulan%2023k')}
     
       </div>
       <h3 className="text-start font-bold my-7 ">Premium Private</h3>

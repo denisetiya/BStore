@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/home/main';
-import Navbar from './components/navbar/main.jsx'
+import Navbar from './components/navbar/main.jsx';
 import Product from './pages/productApp/main';
 import SignDialog2 from './components/sign/SignUp';
 import Youtube from './pages/productApp/youtube/main';
