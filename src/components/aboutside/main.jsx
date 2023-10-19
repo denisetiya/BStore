@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from 'react';
 import {
   Drawer,
   Button,
@@ -14,12 +14,26 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 import pp from '../../assets/pp.jpeg'
+import pp2 from '../../assets/pp2.jpeg'
 
 export default function DrawerDefault() {
   const [open, setOpen] = React.useState(false);
 
   const openDrawer = () => setOpen(true);
   const closeDrawer = () => setOpen(false);
+
+  const [currentImage, setCurrentImage] = useState(pp);
+
+  const handleClick = () => {
+ 
+    if (currentImage === pp) {
+      setCurrentImage(pp2);
+    } else {
+      setCurrentImage(pp);
+    }
+  };
+
+
 
   return (
     <React.Fragment>
@@ -58,7 +72,7 @@ export default function DrawerDefault() {
         <Typography color="gray" className="mb-8 pr-4 font-normal">
           <Card className="border-2">
             <CardHeader floated={false} className="rounded-full">
-              <img src={pp} alt="profile-picture" />
+              <img src={currentImage} alt="profile-picture" onClick={handleClick} />
             </CardHeader>
             <CardBody className="text-center">
               <Typography variant="h4" color="blue-gray" className="mb-2">
@@ -79,7 +93,7 @@ export default function DrawerDefault() {
               <Link to="https://instagram.com/denisetiya_">
                 <i className="ph ph-instagram-logo text-2xl"></i>
               </Link>
-              <Link to="https://wa.me/6283179334663">
+              <Link to="https://wa.me/6283179823209">
                 <i className="ph ph-whatsapp-logo text-2xl"></i>
               </Link>
               <Link to="https://github.com/denisetiya">

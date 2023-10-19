@@ -43,7 +43,7 @@ export default function NavbarDefault() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="flex items-center gap-x-2 p-1 font-medium"
+        className="flex items-center gap-x-2 p-1 font-medium md:hover:bg-blue-gray-400 md:hover:px-3 md:rounded-3xl md:hover:text-white hover:ease-in transition duration-300" 
       >
         <Link to="/" className="flex items-center">
           Home
@@ -53,7 +53,7 @@ export default function NavbarDefault() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="flex items-center gap-x-2 p-1 font-medium"
+        className="flex items-center gap-x-2 p-1 font-medium md:hover:bg-blue-gray-400 md:hover:px-3 md:rounded-3xl md:hover:text-white hover:ease-in transition duration-300"
       >
         <Link to="/app" className="flex items-center">
           Premium App
@@ -63,7 +63,7 @@ export default function NavbarDefault() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="flex items-center gap-x-2 p-1 font-medium"
+        className="flex items-center gap-x-2 p-1 font-medium md:hover:bg-blue-gray-400 md:hover:px-3 md:rounded-3xl md:hover:text-white hover:ease-in transition duration-300"
       >
         <div className="flex gap-3 cursor-pointer">
           <a onClick={() => handleOpen("xs")} variant="gradient">
