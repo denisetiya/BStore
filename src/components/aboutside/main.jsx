@@ -79,7 +79,7 @@ export default function DrawerDefault() {
               <Link to="https://instagram.com/denisetiya_">
                 <i className="ph ph-instagram-logo text-2xl"></i>
               </Link>
-              <Link to="https://wa.me/6283179823209">
+              <Link to="https://wa.me/6283179334663">
                 <i className="ph ph-whatsapp-logo text-2xl"></i>
               </Link>
               <Link to="https://github.com/denisetiya">
