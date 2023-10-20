@@ -58,7 +58,7 @@ export default function AccordionCustomStyles() {
               open === 2 ? "text-blue-500 hover:!text-blue-700" : ""
             }`}
           >
-            Bagaimana cara Pembelinya ?
+            Bagaimana cara Pembeliannya ?
           </AccordionHeader>
           <AccordionBody className="pt-0 text-xs font-normal">
             Cukup Klik pada menu App yang akan kalian pilih dan nanti kalian
@@ -86,7 +86,7 @@ export default function AccordionCustomStyles() {
               open === 3 ? "text-blue-500 hover:!text-blue-700" : ""
             }`}
           >
-            Bagaimana Metode Pembaayarannya ?
+            Bagaimana Metode Pembayarannya ?
           </AccordionHeader>
           <AccordionBody className="pt-0 text-xs font-normal">
             Kalian cukup mentransfer ke acount admin yang akan diberikan, dan
