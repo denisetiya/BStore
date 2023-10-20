@@ -72,7 +72,7 @@ function Product() {
         {card(<img width="90" height="90" src="https://img.icons8.com/ios/50/canva.png" alt="canva" className='my-4'/>,'Canva','Premium plan','/canva')}
         {card(<img width="90" height="90" src="https://img.icons8.com/carbon-copy/100/viu.png" alt="viu"/>,'Viu','Private and No Limit','/viu')}
         {card(<img width="90" height="90" src="https://img.icons8.com/ios/50/picsart.png" alt="picsart"/>,'Picsart','Private and Sharing','/picsart')}
-        {card(<img width="80" height="80" src="https://img.icons8.com/wired/64/phone.png" alt="phone" className='rounded-full border-2 border-black p-2 mb-2'/>,'GetContact','Indplan and Famplan','/getcontact')}
+        {card(<img width="80" height="80" src="https://img.icons8.com/wired/64/phone.png" alt="phone" className='rounded-full border-2 border-black p-2 mb-2'/>,'GetContact','Premium plan','/getcontact')}
         {card(<img width="90" height="90" src={bstation} alt="bs"/>,'Bstation','Private and Sharing','/bstation')}
         {card(<img width="90" height="90" src={remini} alt="remini" className='my-3'/>,'Remini','Android and Ios','/remini')}
         {card(<img width="85" height="85" src={loklok} alt="loklok" className='mb-2'/>,'LokLok','Private and Sharing','/loklok')}
